@@ -1306,4 +1306,17 @@ html{
     .proyect-img-wrapper{
         flex: auto;
     }
+
+    .port-logo-name{
+        font-size: 1.7em;
+    }
+
+    .hero-img-wrapper{    
+        width: 18em;
+        height: 18em;
+    }
+
+    .description{
+        margin-top: .55em;
+    }
 }
