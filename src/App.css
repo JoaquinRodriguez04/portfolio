@@ -85,8 +85,8 @@
     --bg-cursor-track-dk: #082755;
 
     /* bubble */
-    --bg-bubble-lt: #00aeff46;
-    --bg-bubble-dk: #0f74e752;
+    --bg-bubble-lt: #00aeff46, #5217da96;
+    --bg-bubble-dk: #1a6292, #39226e;
 }
 
 *{
@@ -187,22 +187,21 @@ html{
 .bubbles-wrapper{
     display: flex;
     flex-direction: column;
-    background-color: red;
 }
 
 :is(.back-bubble, .back-bubble2){
     position: fixed;
     border-radius: 100vmax;
-    filter: blur(50px);
-    background-color: var(--bg-bubble-lt);
+    filter: blur(80px);
+    background-image: linear-gradient(to right, var(--bg-bubble-lt));
     display: none;
 }
 
 .back-bubble{
-    right: 20px;
-    top: 100px;
-    width: 20em;
-    height: 20em;
+    right: 100px;
+    width: 15em;
+    height: 40em;
+    transform: rotate(-50deg);
 }
 
 .back-bubble2{
