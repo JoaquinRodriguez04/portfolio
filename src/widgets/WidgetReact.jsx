@@ -1,4 +1,3 @@
-
 const WidgetReact = () => {
   return (
     <div className='widget-icon-tech'>
