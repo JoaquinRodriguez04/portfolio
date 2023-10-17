@@ -15,6 +15,9 @@ import WidgetContext from '../widgets/WidgetContext';
 import WidgetVite from '../widgets/WidgetVite';
 import WidgetApi from '../widgets/WidgetApi';
 import WidgetPoint from '../widgets/WidgetPoint';
+import WidgetTailwind from '../widgets/WidgetTailwind';
+
+// context
 import { useContext } from 'react';
 import { PortContext } from '../context/portContext';
 
@@ -249,35 +252,34 @@ const PortProyects = () => {
                 <div 
                 className='proyect-img-title-wrapper'
                 data-desc='you can convert the unit of measurement you want!'>
-                  <p className='proyect-img-title'>conversor</p>
+                  <p className='proyect-img-title'>book list app UI</p>
                 </div>
               </div>
               <div className='proyect-item-desc-wrapper'>
                 <div>
                   <div className='proyect-item-content'>
                     <a 
-                    href="https://github.com/JoaquinRodriguez04/conversor" 
+                    href="https://github.com/JoaquinRodriguez04/book-list" 
                     className="proyect-item-title"
-                    target='blank'>conversor-app
+                    target='blank'>book-list
                     </a>
-                    <p className={`proyect-item-description ${theme && 'proyectItemDescDark'}`}>Unit converter app.</p>
+                    <p className={`proyect-item-description ${theme && 'proyectItemDescDark'}`}>application in which the user can choose a book and filter it according to pages and genres.</p>
                   </div>
                   <div className="proyect-item-tech">
-                    <WidgetHtml/>
-                    <WidgetCss/>
-                    <WidgetJs/>
+                    <WidgetReact/>
+                    <WidgetTailwind/>
                   </div>
                 </div>
                 <div className='proyect-icon-wrapper'>
                   <a
-                  href="https://github.com/JoaquinRodriguez04/conversor"
+                  href="https://github.com/JoaquinRodriguez04/book-list"
                   target='blank'
                   className='pro-icon-link'>
                     <i className="bi bi-github"></i>
                     code
                   </a>
                   <a 
-                  href="https://joaquinrodriguez04.github.io/conversor/"
+                  href="https://joaquinrodriguez04.github.io/book-list/"
                   target='blank'
                   className='pro-icon-link'>
                     <i className="bi bi-link-45deg"></i>
