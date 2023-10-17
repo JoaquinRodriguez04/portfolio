@@ -12,6 +12,7 @@ import iconJson from '../assets/icons/iconJson.svg';
 import iconApi from '../assets/icons/iconApi.png';
 import iconVisual from '../assets/icons/iconVisual.svg';
 import iconVite from '../assets/icons/iconVite.svg';
+import iconTailwind from '../assets/icons/iconTailwind.svg';
 
 const PortTech = () => {
   return (
@@ -33,6 +34,10 @@ const PortTech = () => {
             <div className='tech-img-target'>
                 <img src={iconReact} className='tech-img' alt="icon-react" />
                 <span className='tech-imgs-span'>reactJS</span>    
+            </div>
+            <div className='tech-img-target'>
+                <img src={iconTailwind} className='tech-img' alt="icon-react" />
+                <span className='tech-imgs-span'>tailwind</span>    
             </div>
             <div className='tech-img-target'>
                 <img src={iconVite} className='tech-img' alt="icon-vite" />
