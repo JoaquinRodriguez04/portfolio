@@ -791,7 +791,7 @@ html{
     justify-content: center;
     flex-direction: column;
     gap: .8em;
-    padding-block: 1em;
+    padding: 3em;
     position: relative;
 }
 
@@ -827,6 +827,7 @@ html{
 
 .proyectFMDark{
     border-color: var(--clr-dashed-border-dk);
+    border-radius: .5em;
 }
 
 .iconFM{
