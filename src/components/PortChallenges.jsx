@@ -6,12 +6,8 @@ import challenge1 from '../assets/imgs/chal1.png';
 import challenge2 from '../assets/imgs/chal2.png';
 import challenge3 from '../assets/imgs/chal3.png';
 import challenge4 from '../assets/imgs/chal4.png';
-import challenge5 from '../assets/imgs/chal5.png';
-import challenge6 from '../assets/imgs/chal6.png';
-import challenge7 from '../assets/imgs/chal7.png';
 
 // widgets
-import WidgetHtml from '../widgets/WidgetHtml';
 import WidgetCss from '../widgets/WidgetCss';
 import WidgetReact from '../widgets/WidgetReact';
 import WidgetContext from '../widgets/WidgetContext';
@@ -39,53 +35,6 @@ const PortChallenges = () => {
             <li className={`proyect-item ${theme && 'proyectItemDark'}`}>
               <div className='proyect-img-wrapper'>
                 <img src={challenge1} className='proyect-img' alt="img-challenge-1" />
-                <div 
-                className='proyect-img-title-wrapper'
-                data-desc='summary preview clone!'>
-                  <p className='proyect-img-title'>summary card</p>
-                </div>
-              </div>
-              <div className='proyect-item-desc-wrapper'>
-                <div>
-                  <div className='proyect-item-content'>
-                    <a 
-                    href="https://github.com/JoaquinRodriguez04/sumarry--challenge" 
-                    className="proyect-item-title"
-                    target='blank'>Summary-card</a>
-                    <p className={`proyect-item-description ${theme && 'proyectItemDescDark'}`}>responsive card design challenge.</p>
-                    <a  
-                    href='https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV' 
-                    className='proyect-item-link-chal'
-                    target='BLANK'>
-                      challenge link...
-                    </a>
-                  </div>
-                  <div className="proyect-item-tech">
-                    <WidgetHtml/>
-                    <WidgetCss/>
-                  </div>
-                </div>
-                <div className='proyect-icon-wrapper'>
-                  <a 
-                  href="https://github.com/JoaquinRodriguez04/sumarry--challenge"
-                  target='blank'
-                  className='pro-icon-link'>
-                    <i className="bi bi-github"></i>
-                    code
-                  </a>
-                  <a 
-                  href="https://joaquinrodriguez04.github.io/sumarry--challenge/"
-                  target='blank'
-                  className='pro-icon-link'>
-                    <i className="bi bi-link-45deg"></i>
-                    view
-                  </a>
-                </div>
-              </div>
-            </li>
-            <li className={`proyect-item ${theme && 'proyectItemDark'}`}>
-              <div className='proyect-img-wrapper'>
-                <img src={challenge2} className='proyect-img' alt="img-challenge-2" />
                 <div 
                 className='proyect-img-title-wrapper'
                 data-desc='you can create the tasks you want!'>
@@ -136,7 +85,7 @@ const PortChallenges = () => {
             </li>
             <li className={`proyect-item ${theme && 'proyectItemDark'}`}>
               <div className='proyect-img-wrapper'>
-                <img src={challenge3} className='proyect-img' alt="img-challenge-3" />
+                <img src={challenge2} className='proyect-img' alt="img-challenge-2" />
                 <div 
                 className='proyect-img-title-wrapper'
                 data-desc='you can create your markdown file and modify it whenever you want!'>
@@ -187,58 +136,7 @@ const PortChallenges = () => {
             </li>
             <li className={`proyect-item ${theme && 'proyectItemDark'}`}>
               <div className='proyect-img-wrapper'>
-                <img src={challenge4} className='proyect-img' alt="img-challenge-4" />
-                <div 
-                className='proyect-img-title-wrapper'
-                data-desc='clone of a hero website!'>
-                  <p className='proyect-img-title'>snap app</p>
-                </div>
-              </div>
-              <div className="proyect-item-desc-wrapper">
-                <div>
-                  <div className='proyect-item-content'>
-                    <a 
-                    href="https://joaquinrodriguez04.github.io/snap-app/" 
-                    className="proyect-item-title"
-                    target='blank'>
-                      snap-app
-                    </a>
-                    <p className={`proyect-item-description ${theme && 'proyectItemDescDark'}`}>Responsive intro section with dropdown navigation.</p>
-                    <a  
-                    href='https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5' 
-                    className='proyect-item-link-chal'
-                    target='BLANK'>
-                      challenge link...
-                    </a>
-                  </div>
-                  <div className="proyect-item-tech">
-                    <WidgetReact/>
-                    <WidgetContext/>
-                    <WidgetCss/>
-                    <WidgetVite/>
-                  </div>
-                </div>
-                <div className='proyect-icon-wrapper'>
-                  <a 
-                  href="https://github.com/JoaquinRodriguez04/snap-app"
-                  target='blank'
-                  className='pro-icon-link'>
-                    <i className="bi bi-github"></i>
-                    code
-                  </a>
-                  <a 
-                  href="https://joaquinrodriguez04.github.io/snap-app/"
-                  target='blank'
-                  className='pro-icon-link'>
-                    <i className="bi bi-link-45deg"></i>
-                    view
-                  </a>
-                </div>
-              </div>
-            </li>
-            <li className={`proyect-item ${theme && 'proyectItemDark'}`}>
-              <div className='proyect-img-wrapper'>
-                <img src={challenge5} className='proyect-img' alt="img-challenge-5" />
+                <img src={challenge3} className='proyect-img' alt="img-challenge-3" />
                 <div 
                 className='proyect-img-title-wrapper'
                 data-desc='create your tasks!'>
@@ -289,56 +187,7 @@ const PortChallenges = () => {
             </li>
             <li className={`proyect-item ${theme && 'proyectItemDark'}`}>
               <div className='proyect-img-wrapper'>
-                <img src={challenge6} className='proyect-img' alt="img-challenge-6" />
-                <div 
-                className='proyect-img-title-wrapper'
-                data-desc='clone of a social media task panel!'>
-                  <p className='proyect-img-title'>social media dashboard</p>
-                </div>
-              </div>
-              <div className="proyect-item-desc-wrapper">
-                <div>
-                  <div className='proyect-item-content'>
-                    <a 
-                    href="https://joaquinrodriguez04.github.io/social-media-dashboard/" 
-                    className="proyect-item-title"
-                    target='blank'>
-                      social-media-dashboard
-                    </a>
-                    <p className={`proyect-item-description ${theme && 'proyectItemDescDark'}`}>This design shows a representation of a social media dashboard that includes light/dark mode.</p>
-                    <a  
-                    href='https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H' 
-                    className='proyect-item-link-chal'
-                    target='BLANK'>
-                      challenge link...
-                    </a>
-                  </div>
-                  <div className="proyect-item-tech">
-                    <WidgetHtml/>
-                    <WidgetCss/>
-                  </div>
-                </div>
-                <div className='proyect-icon-wrapper'>
-                  <a 
-                  href="https://github.com/JoaquinRodriguez04/social-media-dashboard"
-                  target='blank'
-                  className='pro-icon-link'>
-                    <i className="bi bi-github"></i>
-                    code
-                  </a>
-                  <a 
-                  href="https://joaquinrodriguez04.github.io/social-media-dashboard/"
-                  target='blank'
-                  className='pro-icon-link'>
-                    <i className="bi bi-link-45deg"></i>
-                    view
-                  </a>
-                </div>
-              </div>
-            </li>
-            <li className={`proyect-item ${theme && 'proyectItemDark'}`}>
-              <div className='proyect-img-wrapper'>
-                <img src={challenge7} className='proyect-img' alt="img-challenge-7" />
+                <img src={challenge4} className='proyect-img' alt="img-challenge-4" />
                 <div 
                 className='proyect-img-title-wrapper'
                 data-desc='you can filter the job you want!'>
