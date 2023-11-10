@@ -1,3 +1,6 @@
+// context
+import { useContext } from 'react';
+import { PortContext } from '../context/portContext';
 
 // imports icons
 import iconhtml from '../assets/icons/iconHtml.svg';
@@ -13,8 +16,19 @@ import iconApi from '../assets/icons/iconApi.png';
 import iconVisual from '../assets/icons/iconVisual.svg';
 import iconVite from '../assets/icons/iconVite.svg';
 import iconTailwind from '../assets/icons/iconTailwind.svg';
+import iconNext from '../assets/icons/iconNextjs.svg';
+import iconVercel from '../assets/icons/iconVercel.svg';
+
+// iconsModeDark
+import iconGithubWhite from '../assets/icons/iconGithubWhite.svg';
+import iconNextWhite from '../assets/icons/iconNextjsWhite.svg';
+import iconVercelWhite from '../assets/icons/iconVercelWhite.svg';
+
 
 const PortTech = () => {
+    
+    const {theme} = useContext(PortContext);
+
   return (
     <section className='port-tech-wrapper'>
         <h2 className='port-tech-title'>dev skills:</h2>
@@ -32,8 +46,15 @@ const PortTech = () => {
                 <span className='tech-imgs-span'>JavaScript</span>    
             </div>
             <div className='tech-img-target'>
-                <img src={iconReact} className='tech-img' alt="icon-react" />
+                <img src={iconReact} className='tech-img' alt="icon-reactJS" />
                 <span className='tech-imgs-span'>reactJS</span>    
+            </div>
+            <div className='tech-img-target'>
+                {theme
+                ? <img src={iconNextWhite} className='tech-img' alt="icon-nextJSWhite" />
+                : <img src={iconNext} className='tech-img' alt="icon-nextJS" />
+                }
+                <span className='tech-imgs-span'>nextJS</span>    
             </div>
             <div className='tech-img-target'>
                 <img src={iconTailwind} className='tech-img' alt="icon-react" />
@@ -52,8 +73,18 @@ const PortTech = () => {
                 <span className='tech-imgs-span'>git</span>    
             </div>
             <div className='tech-img-target'>
-                <img src={iconGithub} className='tech-img' alt="icon-gthub" />
+                {theme
+                ? <img src={iconGithubWhite} className='tech-img' alt="icon-GithubWhite" />
+                : <img src={iconGithub} className='tech-img' alt="icon-Github" />
+                }
                 <span className='tech-imgs-span'>github</span>
+            </div>
+            <div className='tech-img-target'>
+                {theme
+                ? <img src={iconVercelWhite} className='tech-img' alt="icon-vercelWhite" />
+                : <img src={iconVercel} className='tech-img' alt="iicon-vercel" />
+                }
+                <span className='tech-imgs-span'>vercel</span>
             </div>
             <div className='tech-img-target'>
                 <img src={iconJson} className='tech-img' alt="icon-json" />
