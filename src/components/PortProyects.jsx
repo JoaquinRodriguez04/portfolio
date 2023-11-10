@@ -4,7 +4,6 @@ import proyect2 from '../assets/imgs/pro2.png';
 import proyect3 from '../assets/imgs/pro3.png';
 import proyect4 from '../assets/imgs/pro4.png';
 import proyect5 from '../assets/imgs/pro5.png';
-import proyect6 from '../assets/imgs/pro6.png';
 
 // widgets
 import WidgetHtml from '../widgets/WidgetHtml';
@@ -12,7 +11,6 @@ import WidgetCss from '../widgets/WidgetCss';
 import WidgetJs from '../widgets/WidgetJs';
 import WidgetReact from '../widgets/WidgetReact';
 import WidgetContext from '../widgets/WidgetContext';
-import WidgetVite from '../widgets/WidgetVite';
 import WidgetApi from '../widgets/WidgetApi';
 import WidgetPoint from '../widgets/WidgetPoint';
 import WidgetTailwind from '../widgets/WidgetTailwind';
@@ -33,49 +31,6 @@ const PortProyects = () => {
             <li className={`proyect-item ${theme && 'proyectItemDark'}`}>
               <div className='proyect-img-wrapper'>
                 <img src={proyect1} className='proyect-img' alt="img-proyect-1" />
-                <div 
-                className='proyect-img-title-wrapper'
-                data-desc='You can add whatever tasks you want!'>
-                  <p className='proyect-img-title'>Things-to-do</p>
-                </div>
-              </div>
-              <div className='proyect-item-desc-wrapper'>
-                <div>
-                  <div className='proyect-item-content'>
-                    <a 
-                    href="https://joaquinrodriguez04.github.io/things-to-do/" 
-                    className="proyect-item-title"
-                    target='blank'>Things-to-do</a>
-                    <p className={`proyect-item-description ${theme && 'proyectItemDescDark'} `}>application to add tasks, the user can delete his task if he has already completed it.</p>
-                  </div>
-                  <div className="proyect-item-tech">
-                    <WidgetReact/>
-                    <WidgetContext/>
-                    <WidgetCss/>
-                    <WidgetVite/>
-                  </div>
-                </div>
-                <div className='proyect-icon-wrapper'>
-                  <a 
-                  href="https://github.com/JoaquinRodriguez04/things-to-do"
-                  target='blank'
-                  className='pro-icon-link'>
-                    <i className="bi bi-github"></i>
-                    code
-                  </a>
-                  <a 
-                  href="https://joaquinrodriguez04.github.io/things-to-do/"
-                  target='blank'
-                  className='pro-icon-link'>
-                    <i className="bi bi-link-45deg"></i>
-                    view
-                  </a>
-                </div>
-              </div>
-            </li>
-            <li className={`proyect-item ${theme && 'proyectItemDark'}`}>
-              <div className='proyect-img-wrapper'>
-                <img src={proyect2} className='proyect-img' alt="img-proyect-2" />
                 <div 
                 className='proyect-img-title-wrapper'
                 data-desc='You can learn the description of the pokemon!!'>
@@ -118,7 +73,7 @@ const PortProyects = () => {
             </li>
             <li className={`proyect-item ${theme && 'proyectItemDark'}`}>
               <div className='proyect-img-wrapper'>
-                <img src={proyect3} className='proyect-img' alt="img-proyect-3" />
+                <img src={proyect2} className='proyect-img' alt="img-proyect-2" />
                 <div 
                 className='proyect-img-title-wrapper'
                 data-desc='You can search for your favorite pokemon!'>
@@ -161,7 +116,7 @@ const PortProyects = () => {
             </li>
             <li className={`proyect-item ${theme && 'proyectItemDark'}`}>
               <div className='proyect-img-wrapper'>
-                <img src={proyect4} className='proyect-img' alt="img-proyect-4" />
+                <img src={proyect3} className='proyect-img' alt="img-proyect-4" />
                 <div 
                 className='proyect-img-title-wrapper'
                 data-desc='you can watch the characters of the series!'>
@@ -203,52 +158,8 @@ const PortProyects = () => {
               </div>
             </li>
             <li className={`proyect-item ${theme && 'proyectItemDark'}`}>
-            <div className='proyect-img-wrapper'>
-                <img src={proyect5} className='proyect-img' alt="img-proyect-5" />
-                <div 
-                className='proyect-img-title-wrapper'
-                data-desc='travel page clone!'>
-                  <p className='proyect-img-title'>travelers</p>
-                </div>
-              </div>
-              <div className='proyect-item-desc-wrapper'>
-                <div>
-                  <div className='proyect-item-content'>
-                    <a 
-                    href="https://github.com/JoaquinRodriguez04/Travelers---page" 
-                    className="proyect-item-title"
-                    target='blank'>
-                      travelers-page
-                    </a>
-                    <p className={`proyect-item-description ${theme && 'proyectItemDescDark'}`}>Landing page about a mountain services sales company.</p>
-                  </div>
-                  <div className="proyect-item-tech">
-                    <WidgetHtml/>
-                    <WidgetCss/>
-                    <WidgetJs/>
-                  </div>
-                </div>
-                <div className='proyect-icon-wrapper'>
-                  <a 
-                  href="https://github.com/JoaquinRodriguez04/Travelers---page"
-                  target='blank'
-                  className='pro-icon-link'>
-                    <i className="bi bi-github"></i>
-                    code
-                  </a>
-                  <a 
-                  href="https://joaquinrodriguez04.github.io/Travelers---page/"
-                  target='blank'
-                  className='pro-icon-link'>
-                    <i className="bi bi-link-45deg"></i>
-                    view
-                  </a>
-                </div>
-              </div>
-            </li>
-            <li className={`proyect-item ${theme && 'proyectItemDark'}`}>
               <div className='proyect-img-wrapper'>
-                <img src={proyect6} className='proyect-img' alt="img-proyect-6" />
+                <img src={proyect4} className='proyect-img' alt="img-proyect-6" />
                 <div 
                 className='proyect-img-title-wrapper'
                 data-desc='you can convert the unit of measurement you want!'>
@@ -280,6 +191,50 @@ const PortProyects = () => {
                   </a>
                   <a 
                   href="https://joaquinrodriguez04.github.io/book-list/"
+                  target='blank'
+                  className='pro-icon-link'>
+                    <i className="bi bi-link-45deg"></i>
+                    view
+                  </a>
+                </div>
+              </div>
+            </li>
+             <li className={`proyect-item ${theme && 'proyectItemDark'}`}>
+            <div className='proyect-img-wrapper'>
+                <img src={proyect5} className='proyect-img' alt="img-proyect-5" />
+                <div 
+                className='proyect-img-title-wrapper'
+                data-desc='blog page about space stars!'>
+                  <p className='proyect-img-title'>space-white</p>
+                </div>
+              </div>
+              <div className='proyect-item-desc-wrapper'>
+                <div>
+                  <div className='proyect-item-content'>
+                    <a 
+                    href="space-white.vercel.app" 
+                    className="proyect-item-title"
+                    target='blank'>
+                      space-white
+                    </a>
+                    <p className={`proyect-item-description ${theme && 'proyectItemDescDark'}`}>In this interactive blog you can observe some space stars, have fun!</p>
+                  </div>
+                  <div className="proyect-item-tech">
+                    <WidgetHtml/>
+                    <WidgetCss/>
+                    <WidgetJs/>
+                  </div>
+                </div>
+                <div className='proyect-icon-wrapper'>
+                  <a 
+                  href="https://vercel.com/joaquin-rodriguezs-projects/space-white/EEEKfYmZUPpR1nR8tKRuVXjojsBg/source"
+                  target='blank'
+                  className='pro-icon-link'>
+                    <i className="bi bi-github"></i>
+                    code
+                  </a>
+                  <a 
+                  href="space-white.vercel.app"
                   target='blank'
                   className='pro-icon-link'>
                     <i className="bi bi-link-45deg"></i>
